@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 40px;
+     justify-content: center; /* Center horizontally */
+  align-items: center;
+  } 
+
+  .profile-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section .profile-picture {
+    border-radius: 50%;
+    width: 736px;
+    height: 700px;
+  }
+
+ 
+  
+  .profile-section p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .goals-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .goals-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .goals-section ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .links-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .links-section a {
+    display: block;
+    font-size: 1.2em;
+    color: #1a73e8;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  .links-section a:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS styles for tablets */
+  }
+ 
+   @media (max-width: 480px) {
+    .container {
+      padding: 10px; /* Adjust padding to fit content */
+    }
+    .profile-picture {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    /* CSS styles for desktops */
+  }
+  
